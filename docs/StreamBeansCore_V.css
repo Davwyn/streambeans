@@ -14,8 +14,8 @@ li.voice-state[data-reactid*="86586182175035392"], [data-reactid*="3349369600806
 @keyframes Dav-speak { 0% { transform:translate(0px,0px); } 10% { transform:translate(0px,10px); } 20% { transform:translate(0px,0px); } 50% { transform:translate(0px,-60px); } 100% { transform:translate(0px,0px); } }
 @keyframes Adreos-speak { 0% { transform:translate(0px,0px); } 10% { transform:translate(0px,5px); } 20% { transform:translate(0px,0px); } 50% { transform:translate(0px,-5px); } 100% { transform:translate(0px,0px); } }
 
-.avatar[data-reactid*="86586182175035392"] { content:url(https://media.discordapp.net/attachments/843512776562311190/843996486596689940/Davwyn_passive_200px.png); border:none!important; bottom:15px!important; border-radius:0!important;} /* Davwyn */
-.avatar.speaking[data-reactid*="86586182175035392"] { content:url(https://media.discordapp.net/attachments/843512776562311190/843996490791256064/Davwyn_talk_200px.png); border:none!important; bottom:15px!important; border-radius:0!important;}
+.avatar[data-reactid*="86586182175035392"] { content:url(https://media.discordapp.net/attachments/896181322404474921/925558817817784341/Davwyn2_passive_200px.png); border:none!important; bottom:15px!important; border-radius:0!important;} /* Davwyn */
+.avatar.speaking[data-reactid*="86586182175035392"] { content:url(https://media.discordapp.net/attachments/896181322404474921/925558824096661544/Davwyn2_talk_200px.png); border:none!important; bottom:15px!important; border-radius:0!important;}
 
 .avatar[data-reactid*="334936960080674819"] { content:url(https://media.discordapp.net/attachments/843512776562311190/843996477218095114/coconutcorgi_passive_200px.png); border:none!important; bottom:15px!important; border-radius:0!important;}/* Coconut Corgi */
 .avatar.speaking[data-reactid*="334936960080674819"] { content:url(https://media.discordapp.net/attachments/843512776562311190/843996482474082304/coconutcorgi_talk_200px.png); border:none!important; bottom:15px!important; border-radius:0!important;}
