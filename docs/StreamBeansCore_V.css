@@ -167,8 +167,8 @@ li.voice-state[data-reactid*="86586182175035392"], [data-reactid*="3349369600806
 .avatar[data-reactid*="332470381594279939"] { content:url(https://media.discordapp.net/attachments/896181322404474921/929123114653220874/Jesse_passive_200px.png); border:none!important; bottom:15px!important; border-radius:0!important;} /* Cptn Jesse and Lt Rayven */
 .avatar.speaking[data-reactid*="332470381594279939"] { content:url(https://media.discordapp.net/attachments/896181322404474921/929123148648022056/Jesse_talk_200px.png); border:none!important; bottom:15px!important; border-radius:0!important;}
 
-.avatar[data-reactid*="700158462285447221"] { content:url(); border:none!important; bottom:15px!important; border-radius:0!important;} /* CorbinCorp  */
-.avatar.speaking[data-reactid*="700158462285447221"] { content:url(); border:none!important; bottom:15px!important; border-radius:0!important;}
+.avatar[data-reactid*="700158462285447221"] { content:url(https://media.discordapp.net/attachments/896181322404474921/929610252557619200/Corbin_passive_200px.png); border:none!important; bottom:15px!important; border-radius:0!important;} /* CorbinCorp  */
+.avatar.speaking[data-reactid*="700158462285447221"] { content:url(https://media.discordapp.net/attachments/896181322404474921/929610268940570674/Corbin_talk_200px.png); border:none!important; bottom:15px!important; border-radius:0!important;}
 
 .avatar[data-reactid*="999999999999999"] { content:url(); border:none!important; bottom:15px!important; border-radius:0!important;} /* Template */
 .avatar.speaking[data-reactid*="999999999999999"] { content:url(); border:none!important; bottom:15px!important; border-radius:0!important;}
