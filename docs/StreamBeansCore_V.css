@@ -110,8 +110,8 @@ li.voice-state[data-reactid*="86586182175035392"], [data-reactid*="3349369600806
 .avatar[data-reactid*="377894459024736259"] { content:url(https://media.discordapp.net/attachments/845872558717009920/846502863307931688/malduran_passive_200px.png); border:none!important; bottom:15px!important; border-radius:0!important;}/* Malduran */
 .avatar.speaking[data-reactid*="377894459024736259"] { content:url(https://media.discordapp.net/attachments/845872558717009920/846502873998163999/malduran_talk_200px.png); border:none!important; bottom:15px!important; border-radius:0!important;}
 
-.avatar[data-reactid*="95236110342426624"] { content:url(https://media.discordapp.net/attachments/896181322404474921/917989850408431686/Zoroark2_passive_200px.png); border:none!important; bottom:15px!important; border-radius:0!important;}/* Zoroark */
-.avatar.speaking[data-reactid*="95236110342426624"] { content:url(https://media.discordapp.net/attachments/896181322404474921/917989875557478420/Zoroark2_talk_200px.png); border:none!important; bottom:15px!important; border-radius:0!important;}
+.avatar[data-reactid*="95236110342426624"] { content:url(https://media.discordapp.net/attachments/896181322404474921/932158132984090644/Zoroark2_passive_200px.png); border:none!important; bottom:15px!important; border-radius:0!important;}/* Zoroark */
+.avatar.speaking[data-reactid*="95236110342426624"] { content:url(https://media.discordapp.net/attachments/896181322404474921/932158249493467176/Zoroark2_talk_200px.png); border:none!important; bottom:15px!important; border-radius:0!important;}
 
 .avatar[data-reactid*="230100960590954508"] { content:url(https://media.discordapp.net/attachments/896181322404474921/911491025040723968/Carbonv2_passive_200px.png); border:none!important; bottom:15px!important; border-radius:0!important;} /* Carbon Dragon */
 .avatar.speaking[data-reactid*="230100960590954508"] { content:url(https://media.discordapp.net/attachments/896181322404474921/911491049241841664/Carbonv2_talk_200px.png); border:none!important; bottom:15px!important; border-radius:0!important;}
