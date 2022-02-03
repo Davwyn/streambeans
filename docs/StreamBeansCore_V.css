@@ -1,8 +1,10 @@
 body { overflow:hidden; display:block; position:absolute; bottom:0; left:0; right:0; top: 10px; height:100%; }
-.voice-container .voice-states .voice-state .user { display:block!important; position:absolute; border:none!important; bottom:80px!important; border-radius:0!important; height:auto!important; max-height:100%!important; width:auto!important; max-width:100%!important; border-radius:0!important; margin:0!important; border:none!important; transition: filter .1s linear; background-size:auto 100%; background-position:bottom center; background-repeat:no-repeat; text-align:center; }
+.voice-container .voice-states .voice-state .user { display:block!important; }
 ul.voice-states { display:flex!important; flex-direction:column; flex-wrap:nowrap; padding-right:95px!important; justify-content:space-around; align-items:bottom; vertical-align:bottom; margin:0!important; position:absolute; top:100px; bottom:0; left:0; right:0;}
-li.voice-state { display:block; z-index:99; order:99; bottom:0px; position:relative; width:100%!important;margin:0!important;}
-img.avatar { position:absolute; padding:5px; bottom:10px; left:60px; height:115px!important; width:115px!important; border-radius:50%!important; margin:0!important; border:none!important; transition: filter .1s linear; background-size:auto 100%; background-position:bottom center; background-repeat:no-repeat; filter: brightness(100%); text-align:center; border:none!important}
+li.voice-state { display:block; z-index:99; order:99; position:relative; width:auto!important;margin:0!important;}
+.user { padding-top:0px!important;}
+span.name{ display:block; width:fit-content; }
+img.avatar { position:absolute; padding:5px; bottom:0px; left:0px; height:115px!important; width:115px!important; border-radius:50%!important; margin:0!important; border:none!important; transition: filter .1s linear; background-size:auto 100%; background-position:bottom center; background-repeat:no-repeat; filter: brightness(100%); border:none!important}
 img.avatar.speaking { border:5px solid rgba(0, 199, 33, 0.836)!important; padding:0px; animation-name: speak-now; animation-duration: 1s; animation-fill-mode:forwards; filter: brightness(100%); }
 @keyframes speak-now { 0% { transform:translate(0px,0px); } 10% { transform:translate(0px,10px); } 30% { transform:translate(0px,-20px); } 60% { transform:translate(0px,0px); } }
 
