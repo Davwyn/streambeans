@@ -1,4 +1,4 @@
-/* Version: June 16, 2023 */
+/* Version: June 17, 2023 */
 body { overflow:hidden; display:block; position:absolute; bottom:0; height:100%; width:100%;}
 
 div>ul[class^="Voice_voiceStates"]{ display:flex!important; flex-direction:row; flex-wrap:nowrap; padding-right:95px!important; justify-content:space-evenly; align-items:flex-end; vertical-align:bottom; position:absolute; bottom:0; left:0; right:0; width:100%;}
@@ -28,8 +28,8 @@ li>img[class*="Speaking"][src*="366790970089537536"] { content:url(https://media
 li>img[class^="Voice_avatar"][src*="232681889385807872"] { content:url(https://media.discordapp.net/attachments/843512776562311190/847269592950767625/Adreos_passive_200px.png); border:none!important; bottom:15px!important; border-radius:0!important; height:200px!important; width:200px!important;}/* Adreos */
 li>img[class*="Speaking"][src*="232681889385807872"] { content:url(https://media.discordapp.net/attachments/843512776562311190/847269599979372624/Adreos_talk_200px.png); border:none!important; bottom:15px!important; border-radius:0!important; height:200px!important; width:200px!important;}
 
-li>img[class^="Voice_avatar"][src*="84796772307726336"] { content:url(https://media.discordapp.net/attachments/843512776562311190/843996441839009802/Aeros_passive_200px.png); border:none!important; bottom:15px!important; border-radius:0!important; height:200px!important; width:200px!important;}/* Aeros */
-li>img[class*="Speaking"][src*="84796772307726336"] { content:url(https://media.discordapp.net/attachments/843512776562311190/843996446432428042/Aeros_talk_200px.png); border:none!important; bottom:15px!important; border-radius:0!important; height:200px!important; width:200px!important;}
+li>img[class^="Voice_avatar"][src*="84796772307726336"] { content:url(https://media.discordapp.net/attachments/896181322404474921/1119734038991732927/Aeros_v2_passive_200px.png); border:none!important; bottom:15px!important; border-radius:0!important; height:200px!important; width:200px!important;}/* Aeros */
+li>img[class*="Speaking"][src*="84796772307726336"] { content:url(https://media.discordapp.net/attachments/896181322404474921/1119734054112211004/Aeros_v2_talk_200px.png); border:none!important; bottom:15px!important; border-radius:0!important; height:200px!important; width:200px!important;}
 
 li>img[class^="Voice_avatar"][src*="119940055979655168"] { content:url(https://media.discordapp.net/attachments/843512776562311190/843996451054813235/Allicia_passive_200px.png); border:none!important; bottom:15px!important; border-radius:0!important; height:200px!important; width:200px!important;}/* Allicia */
 li>img[class*="Speaking"][src*="119940055979655168"] { content:url(https://media.discordapp.net/attachments/843512776562311190/843996455826882580/Allicia_talk_200px.png); border:none!important; bottom:15px!important; border-radius:0!important; height:200px!important; width:200px!important;}
