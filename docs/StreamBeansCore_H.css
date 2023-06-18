@@ -1,4 +1,4 @@
-/* Version: June 17, 2023 */
+/* Version: June 18, 2023 */
 body { overflow:hidden; display:block; position:absolute; bottom:0; height:100%; width:100%;}
 
 div>ul[class^="Voice_voiceStates"]{ display:flex!important; flex-direction:row; flex-wrap:nowrap; padding-right:95px!important; justify-content:space-evenly; align-items:flex-end; vertical-align:bottom; position:absolute; bottom:0; left:0; right:0; width:100%;}
