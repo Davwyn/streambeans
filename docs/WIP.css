@@ -1,0 +1,124 @@
+body {
+    overflow:hidden;
+    display:block;
+    position:absolute;
+    bottom:0;
+    height:100%;
+    width:100%;
+}
+div>ul[class^="Voice_voiceStates"]{
+    display:flex!important;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    padding-right:95px!important;
+    justify-content:space-evenly;
+    align-items:flex-end;
+    vertical-align:bottom;
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    width:100%;
+}
+li[class^="Voice_voiceState_"]{
+    display:flex;
+    flex-direction: column;
+    height: 170px;
+    justify-content: flex-end;
+    align-items: center;
+    z-index:99;
+    order:99;
+    position:relative;
+    margin:0!important;
+}
+div[class^="Voice_user"]{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:0px;
+    max-width: 200px;
+}
+div>span[class^="Voice_name"]{
+    display:block;
+    width:fit-content;
+}
+li>img[class^="Voice_avatar"]{
+    position:absolute;
+    bottom:25px;
+    height:80px;
+    width:80px;
+    border-radius:50%!important;
+    margin:31!important;
+    border:none!important;
+    transition: filter .1s linear;
+    background-size:auto 100%;
+    background-position:bottom center;
+    background-repeat:no-repeat;
+    filter: brightness(100%);
+    text-align:center;
+    border:none!important
+}
+li>img[class*="Speaking"]{
+    border:5px solid rgba(0, 199, 33, 0.836)!important;
+    padding:0px;
+    animation-name: speak-now;
+    animation-duration: 1s;
+    animation-fill-mode:forwards;
+    filter: brightness(100%);
+}
+@keyframes speak-now {
+    0% {
+        transform:translate(0px,0px);
+   }
+    10% {
+        transform:translate(0px,10px);
+   }
+    30% {
+        transform:translate(0px,-20px);
+   }
+    60% {
+        transform:translate(0px,0px);
+   }
+}
+li:has(img[src*="86586182175035392"], [src*="123456789"], [src*="123456789"], [src*="123456789"]) {
+    display:block!important;
+    z-index:50!important;
+    order:50!important;
+}
+
+/* Special Overrides */
+
+@keyframes Dav-speak {
+    0% {
+        transform:translate(0px,0px);
+   }
+    10% {
+        transform:translate(0px,10px);
+   }
+    20% {
+        transform:translate(0px,0px);
+   }
+    50% {
+        transform:translate(0px,-60px);
+   }
+    100% {
+        transform:translate(0px,0px);
+   }
+}
+
+/* Hide a user with the following code: */
+
+/* li>img[src*="123456789123456789"],
+li>img[src*="123456789123456789"] ~ div {
+    display: none;
+} */
+
+li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/86586182175035392"],
+li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/86586182175035392"] ~ div {
+    display: none;
+}
+
+
+/* Davwyn */
+li>img[class^="Voice_avatar"][src*="86586182175035392"] { content:url(https://media.discordapp.net/attachments/896181322404474921/925558817817784341/Davwyn2_passive_200px.png); border:none!important; bottom:15px!important; border-radius:0!important; height:200px!important; width:200px!important;}
+li>img[class*="Speaking"][src*="86586182175035392"] { content:url(https://media.discordapp.net/attachments/896181322404474921/925558824096661544/Davwyn2_talk_200px.png); border:none!important; bottom:15px!important; border-radius:0!important; height:200px!important; width:200px!important;}
