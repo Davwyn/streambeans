@@ -6,9 +6,9 @@ Look at the bottom of the script for customizations!
     --StreamBeanHeight:200px;
     --StreamBeanWidth:200px;
     --StreamBeanBottom:-15px;
-    --DiscordieHeight:80px;
-    --DiscordieWidth:80px;
-    --DiscordieBottom:10px;
+    --DiscordieHeight:120px;
+    --DiscordieWidth:120px;
+    --DiscordieBottom:25px;
 }
 
 body {
@@ -71,10 +71,11 @@ div>span[class^="Voice_name"]{
 }
 
 li>img[class*="Speaking"]{
-    border:5px solid rgba(0, 199, 33, 0.836)!important;
+    border:5px solid rgba(240, 240, 240, 0.836)!important;
     padding:0px;
     animation-name: speak-now;
-    animation-duration: 1s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
     animation-fill-mode:forwards;
     filter: brightness(100%);
 }

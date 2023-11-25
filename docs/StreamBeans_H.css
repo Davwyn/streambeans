@@ -6,9 +6,9 @@ Look at the bottom of the script for customizations!
     --StreamBeanHeight:200px;
     --StreamBeanWidth:200px;
     --StreamBeanBottom:15px;
-    --DiscordieHeight:80px;
-    --DiscordieWidth:80px;
-    --DiscordieBottom:25px;
+    --DiscordieHeight:120px;
+    --DiscordieWidth:120px;
+    --DiscordieBottom:45px;
 }
 
 body {
@@ -71,10 +71,11 @@ div>span[class^="Voice_name"]{
 }
 
 li>img[class*="Speaking"]{
-    border:5px solid rgba(0, 199, 33, 0.836)!important;
+    border:5px solid rgba(240, 240, 240, 0.836)!important;
     padding:0px;
     animation-name: speak-now;
-    animation-duration: 1s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
     animation-fill-mode:forwards;
     filter: brightness(100%);
 }
@@ -452,6 +453,28 @@ li>img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/1077081542624
 /* Template */
 li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/999999999999999"] { content:url(); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
 li>img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/999999999999999"] { content:url(); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
+
+/* -----------------------------
+Community Overrides
+--------------------------------
+These are special overrides that affect community members managed by the master stream bean script.
+This code will be replaced every update.
+*/
+
+/* Trills Lurk */
+@keyframes TrillsLurk {0% { transform:translate(0px,0px); } 80% { transform:translate(0px,0px); } 100% { transform:translate(0px,85px); } }
+li>img[class*="Voice_avatar"]:not([class*="Voice_avatarSpeaking"])[src^="https://cdn.discordapp.com/avatars/794517059211886602"] {
+    content:url(https://media.discordapp.net/attachments/896181322404474921/925558817817784341/Davwyn2_passive_200px.png);
+    animation-name: TrillsLurk!important;
+    animation-duration: 300s!important;
+    animation-direction:normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+/* ----------------
+End of Community Overrides
+------------------- */
 
 
 /* -------------------------------------------------------------------------
