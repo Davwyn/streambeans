@@ -464,7 +464,6 @@ This code will be replaced every update.
 /* Trills Lurk */
 @keyframes TrillsLurk {0% { transform:translate(0px,0px); } 80% { transform:translate(0px,0px); } 100% { transform:translate(0px,85px); } }
 li>img[class*="Voice_avatar"]:not([class*="Voice_avatarSpeaking"])[src^="https://cdn.discordapp.com/avatars/794517059211886602"] {
-    content:url(https://media.discordapp.net/attachments/896181322404474921/925558817817784341/Davwyn2_passive_200px.png);
     animation-name: TrillsLurk!important;
     animation-duration: 300s!important;
     animation-direction:normal;
