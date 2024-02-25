@@ -345,3 +345,7 @@ li>img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/1156381354053
 /* Belle Draco */
 li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/1077081542624555049"] { content:url(https://i.imgur.com/MTMmgLl.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
 li>img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/1077081542624555049"] { content:url(https://i.imgur.com/XbTAhAh.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
+
+/* Niro Husky */
+li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/160815539235586050"] { content:url(https://i.imgur.com/vwmxQMZ.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
+li>img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/160815539235586050"] { content:url(https://i.imgur.com/OnyKG1U.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
