@@ -232,11 +232,11 @@ li>img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/3778944590247
 
 /* Zoroark */
 li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/95236110342426624"] { content:url(https://i.imgur.com/7OfLEmH.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
-li>img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/95236110342426624"] { content:url(https://i.imgur.com/9K7ZgHc.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
+li>img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/95236110342426624"] { content:url(https://i.imgur.com/lFIGA2B.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
 
 /* Carbon Dragon */
 li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/230100960590954508"] { content:url(https://i.imgur.com/cW0iIOi.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
-li>img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/230100960590954508"] { content:url(https://i.imgur.com/7SlUwrp.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
+li>img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/230100960590954508"] { content:url(https://i.imgur.com/9K7ZgHc.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
 
 /* Zephyr Dragon */
 li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/170959682150596609"] { content:url(https://i.imgur.com/l7MsOtR.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
