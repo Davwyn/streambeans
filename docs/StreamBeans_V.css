@@ -303,8 +303,8 @@ li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/317103855
 li>img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/317103855915630602"] { content:url(https://i.imgur.com/J4lmoKD.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
 
 /* Cptn Jesse and Lt Rayven AKA Nala AKA Glint */
-li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/332470381594279939"] { content:url(https://i.imgur.com/kaOIJg8.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
-li>img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/332470381594279939"] { content:url(https://i.imgur.com/Ya2tt7l.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
+li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/332470381594279939"] { content:url(https://i.imgur.com/lED6jmk.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
+li>img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/332470381594279939"] { content:url(https://i.imgur.com/cAyuHyR.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
 
 /* CorbinCorp  */
 li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/700158462285447221"] { content:url(https://i.imgur.com/r8GcvGD.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
