@@ -1,4 +1,4 @@
-/* StreamBeans Vertical Version: Oct 26, 2024 */
+/* StreamBeans Vertical Version: Oct 27, 2024 */
 /* -------------------------------------------------
 Look at the bottom of the script for customizations!
 ------------------------------------------------- */
@@ -187,8 +187,8 @@ li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/407584027
 li>img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/407584027466399744"] { content:url(https://i.imgur.com/Q9hgKU7.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
 
 /* Trills aka Tux */
-li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/794517059211886602"] { content:url(https://i.imgur.com/FS1RJPp.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
-li>img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/794517059211886602"] { content:url(https://i.imgur.com/2ybrPRA.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
+li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/794517059211886602"] { content:url(https://i.imgur.com/ZozRy7l.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
+li>img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/794517059211886602"] { content:url(https://i.imgur.com/D2ncUyY.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
 
 /* Tyler */
 li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/315327305083781132"] { content:url(https://i.imgur.com/r9RdubH.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
