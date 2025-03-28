@@ -526,6 +526,16 @@ li>img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/3388169905695
 li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/xxxxxxxxxxxxxx"] { content:url(); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
 li>img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/xxxxxxxxxxxxxx"] { content:url(); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
 
+/* Additional States */
+
+/* li[class*="self_mute"]>img[src^="https://cdn.discordapp.com/avatars/86586182175035392"] { content:url(); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;} */
+
+/* li[class*=" mute"]>img[src^="https://cdn.discordapp.com/avatars/86586182175035392"] { content:url(); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;} */
+
+/* li[class*="self_deaf"]>img[src^="https://cdn.discordapp.com/avatars/86586182175035392"] { content:url(); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;} */
+
+/* li[class*=" deaf"]>img[src^="https://cdn.discordapp.com/avatars/86586182175035392"] { content:url(); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;} */
+
 /* ----------------
 End of Community Overrides
 ------------------- */
