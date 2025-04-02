@@ -58,6 +58,66 @@ li>img[class^="Voice_avatar"]{
     text-align:center;
     border:none!important;
 }
+li[class*="self_mute"]::after {
+    content: url("https://i.imgur.com/A0mbXbz.png"); /* URL of the overlay image */
+    position: absolute;
+    top: 50%; /* Center vertically relative to the parent */
+    left: 50%; /* Center horizontally relative to the parent */
+    transform: translate(-80%, -100%); /* Adjust for centering */
+    height: var(--DiscordieHeight); /* Match the height of Voice_avatar */
+    width: var(--DiscordieWidth); /* Match the width of Voice_avatar */
+    pointer-events: none; /* Ensure the overlay doesn't block interactions */
+    z-index: 1; /* Ensure the overlay is on top */
+}
+li[class*="self_mute"] {
+    position: relative;
+}
+/* Ensure the parent <li> is positioned relative for proper positioning of the pseudo-element */
+li[class*=" mute"]::after {
+    content: url("https://i.imgur.com/PSoGd4M.png"); /* URL of the overlay image */
+    position: absolute;
+    top: 50%; /* Center vertically relative to the parent */
+    left: 50%; /* Center horizontally relative to the parent */
+    transform: translate(-80%, -100%); /* Adjust for centering */
+    height: var(--DiscordieHeight); /* Match the height of Voice_avatar */
+    width: var(--DiscordieWidth); /* Match the width of Voice_avatar */
+    pointer-events: none; /* Ensure the overlay doesn't block interactions */
+    z-index: 1; /* Ensure the overlay is on top */
+}
+/* Ensure the parent <li> is positioned relative for proper positioning of the pseudo-element */
+li[class*=" mute"] {
+    position: relative;
+}
+li[class*=" deaf"]::after {
+    content: url("https://i.imgur.com/LHCQaQa.png"); /* URL of the overlay image */
+    position: absolute;
+    top: 50%; /* Center vertically relative to the parent */
+    left: 50%; /* Center horizontally relative to the parent */
+    transform: translate(-100%, -100%); /* Adjust for centering */
+    height: var(--DiscordieHeight); /* Match the height of Voice_avatar */
+    width: var(--DiscordieWidth); /* Match the width of Voice_avatar */
+    pointer-events: none; /* Ensure the overlay doesn't block interactions */
+    z-index: 1; /* Ensure the overlay is on top */
+}
+/* Ensure the parent <li> is positioned relative for proper positioning of the pseudo-element */
+li[class*=" deaf"] {
+    position: relative;
+}
+li[class*="self_deaf"]::after {
+    content: url("https://i.imgur.com/EZ6k4Lv.png"); /* URL of the overlay image */
+    position: absolute;
+    top: 50%; /* Center vertically relative to the parent */
+    left: 50%; /* Center horizontally relative to the parent */
+    transform: translate(-100%, -100%); /* Adjust for centering */
+    height: var(--DiscordieHeight); /* Match the height of Voice_avatar */
+    width: var(--DiscordieWidth); /* Match the width of Voice_avatar */
+    pointer-events: none; /* Ensure the overlay doesn't block interactions */
+    z-index: 1; /* Ensure the overlay is on top */
+}
+/* Ensure the parent <li> is positioned relative for proper positioning of the pseudo-element */
+li[class*="self_deaf"] {
+    position: relative;
+}
 div[class^="Voice_user"]{
     display: flex;
     align-items: center;
