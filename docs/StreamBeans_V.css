@@ -1,4 +1,4 @@
-/* StreamBeans Horizontal Version: April 1 (V2), 2025 */
+/* StreamBeans Horizontal Version: April 1 (V3), 2025 */
 /* -------------------------------------------------
 Look at the bottom of the script for customizations!
 ------------------------------------------------- */
@@ -584,6 +584,10 @@ li>img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/3542835740248
 /* Trikersaurus */
 li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/338816990569562133"] { content:url(https://i.imgur.com/BWTMjMf.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
 li>img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/338816990569562133"] { content:url(https://i.imgur.com/iA4o3Wm.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
+
+/* Ziggy789 */
+li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/603223708076736542"] { content:url(https://i.imgur.com/Cy2lBQs.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
+li>img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/603223708076736542"] { content:url(https://i.imgur.com/oLVFNWt.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
 
 /* Template */
 li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/xxxxxxxxxxxxxx"] { content:url(); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
