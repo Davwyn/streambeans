@@ -1,4 +1,4 @@
-/* StreamBeans Horizontal Version: April 1 (V3), 2025 */
+/* StreamBeans Horizontal Version: April 3, 2025 */
 /* -------------------------------------------------
 Look at the bottom of the script for customizations!
 ------------------------------------------------- */
@@ -88,6 +88,9 @@ li[class*=" mute"]::after {
 li[class*=" mute"] {
     position: relative;
 }
+li[class*=" mute"]>img {
+    filter: grayscale(100%);
+}
 li[class*=" deaf"]::after {
     content: url("https://i.imgur.com/LHCQaQa.png"); /* URL of the overlay image */
     position: absolute;
@@ -102,6 +105,9 @@ li[class*=" deaf"]::after {
 /* Ensure the parent <li> is positioned relative for proper positioning of the pseudo-element */
 li[class*=" deaf"] {
     position: relative;
+}
+li[class*=" deaf"]>img {
+    filter: grayscale(100%);
 }
 li[class*="self_deaf"]::after {
     content: url("https://i.imgur.com/EZ6k4Lv.png"); /* URL of the overlay image */
