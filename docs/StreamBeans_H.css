@@ -1,4 +1,4 @@
-/* StreamBeans Horizontal Version: April 8 v3, 2025 */
+/* StreamBeans Horizontal Version: April 8 v4, 2025 */
 /* -------------------------------------------------
 Look at the bottom of the script for customizations!
 ------------------------------------------------- */
@@ -56,7 +56,7 @@ li>img[class^="Voice_avatar"]{
     background-repeat:no-repeat;
     filter:brightness(100%);
     text-align:center;
-    border:none!important
+    border:none!important;
 }
 li[class*="self_mute"]::after {
     content: url("https://i.imgur.com/A0mbXbz.png"); /* URL of the overlay image */
@@ -608,6 +608,23 @@ li>img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/xxxxxxxxxxxxx
 /* li[class*="self_deaf"]>img[src^="https://cdn.discordapp.com/avatars/86586182175035392"] { content:url(); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;} */
 
 /* li[class*=" deaf"]>img[src^="https://cdn.discordapp.com/avatars/86586182175035392"] { content:url(); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;} */
+
+/* -----------------------------
+Community Overrides
+--------------------------------
+These are special overrides that affect community members managed by the master stream bean script.
+This code will be replaced every update.
+*/
+
+/* Trills Lurk */
+@keyframes TrillsLurk {0% { transform:translate(0px,0px); } 80% { transform:translate(0px,0px); } 100% { transform:translate(0px,85px); } }
+li>img[class*="Voice_avatar"]:not([class*="Voice_avatarSpeaking"])[src^="https://cdn.discordapp.com/avatars/794517059211886602"] {
+    animation-name: TrillsLurk!important;
+    animation-duration: 300s!important;
+    animation-direction:normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
 
 /* ----------------
 End of Community Overrides
