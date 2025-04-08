@@ -620,7 +620,12 @@ Anything above this line will get be replaced next update!
 --Start of Customization Section--
 --Add any Customizations and Overrides below this line-- */
 
+/* Sample: Hide usernames.
+Change display:block to display:none in the below item */
 
+div>span[class^="Voice_name"]{
+    display:block!important;
+}
 
 /* Sample: Hide a specific user.
 Replace the data-userid value with the user IDs you want to hide, if there are multiple, you can add more by copying everything between the square brackets and separate them with commas. */
