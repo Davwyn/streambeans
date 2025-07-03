@@ -1,4 +1,4 @@
-/* StreamBeans Horizontal Version: July 2, 2025 Build 3 */
+/* StreamBeans Horizontal Version: July 2, 2025 Build 4 */
 /* -------------------------------------------------
 Look at the bottom of the script for customizations!
 ------------------------------------------------- */
@@ -59,7 +59,7 @@ li>img[class^="Voice_avatar"]{
     border:none!important;
 }
 li[class*="self_mute"]::after {
-    content: url("https://i.imgur.com/A0mbXbz.png"); /* URL of the overlay image */
+    content: url("https://i.imgur.com/RnGNmgx.png"); /* URL of the overlay image */
     position: absolute;
     top: 50%; /* Center vertically relative to the parent */
     left: 50%; /* Center horizontally relative to the parent */
@@ -74,7 +74,7 @@ li[class*="self_mute"] {
 }
 /* Ensure the parent <li> is positioned relative for proper positioning of the pseudo-element */
 li[class*=" mute"]::after {
-    content: url("https://i.imgur.com/PSoGd4M.png"); /* URL of the overlay image */
+    content: url("https://i.imgur.com/eSbiUZj.png"); /* URL of the overlay image */
     position: absolute;
     top: 50%; /* Center vertically relative to the parent */
     left: 50%; /* Center horizontally relative to the parent */
@@ -92,7 +92,7 @@ li[class*=" mute"]>img {
     filter: grayscale(100%);
 }
 li[class*=" deaf"]::after {
-    content: url("https://i.imgur.com/LHCQaQa.png"); /* URL of the overlay image */
+    content: url("https://i.imgur.com/HzjajWv.png"); /* URL of the overlay image */
     position: absolute;
     top: 50%; /* Center vertically relative to the parent */
     left: 50%; /* Center horizontally relative to the parent */
@@ -110,7 +110,7 @@ li[class*=" deaf"]>img {
     filter: grayscale(100%);
 }
 li[class*="self_deaf"]::after {
-    content: url("https://i.imgur.com/EZ6k4Lv.png"); /* URL of the overlay image */
+    content: url("https://i.imgur.com/PNKwj3Z.png"); /* URL of the overlay image */
     position: absolute;
     top: 50%; /* Center vertically relative to the parent */
     left: 50%; /* Center horizontally relative to the parent */
@@ -588,8 +588,8 @@ li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/287126326
 li>img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/287126326433808394"] { content:url(https://i.imgur.com/KqLTroj.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
 
 /* Terayon */
-li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/354283574024863755"] { content:url(https://i.imgur.com/vpvrVpE.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
-li>img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/354283574024863755"] { content:url(https://i.imgur.com/XA80YZT.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
+li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/354283574024863755"] { content:url(https://i.imgur.com/FT5EThE.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
+li>img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/354283574024863755"] { content:url(https://i.imgur.com/qi7rZ6V.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
 
 /* Trikersaurus */
 li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/338816990569562133"] { content:url(https://i.imgur.com/BWTMjMf.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
