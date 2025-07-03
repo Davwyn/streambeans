@@ -1,14 +1,14 @@
-/* StreamBeans Horizontal Version: July 2, 2025 */
+/* StreamBeans Horizontal Version: July 2, 2025 Build 2 */
 /* -------------------------------------------------
 Look at the bottom of the script for customizations!
 ------------------------------------------------- */
 :root {
-    --StreamBeanHeight:200px;
-    --StreamBeanWidth:200px;
-    --StreamBeanBottom:-15px;
-    --DiscordieHeight:120px;
-    --DiscordieWidth:120px;
-    --DiscordieBottom:25px;
+    --StreamBeanHeight:330px;
+    --StreamBeanWidth:330px;
+    --StreamBeanBottom:0px;
+    --DiscordieHeight:180px;
+    --DiscordieWidth:180px;
+    --DiscordieBottom:60px;
 }
 
 body {
@@ -32,7 +32,7 @@ div>ul[class^="Voice_voiceStates"]{
 li[class^="Voice_voiceState_"]{
     display:flex;
     flex-direction:column;
-    height:170px;
+    height:var(--StreamBeanHeight);
     width:var(--StreamBeanWidth);
     justify-content:flex-end;
     align-items:center;
@@ -129,11 +129,14 @@ div[class^="Voice_user"]{
     align-items: center;
     justify-content: center;
     padding-top:0px;
+    position:relative;
+    bottom: 55px;
     max-width:var(--StreamBeanWidth);
 }
 div>span[class^="Voice_name"]{
     display:block;
     width:fit-content;
+    z-index: 1;
 }
 
 li>img[class*="Speaking"]{
@@ -171,10 +174,10 @@ li.Voice_voiceState__OCoZh[data-userid="86586182175035392"], [data-userid="33493
 
 
 /* Davwyn */
-li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/86586182175035392"] { content:url(https://i.imgur.com/Jbcifzs.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
-li>img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/86586182175035392"] { content:url(https://i.imgur.com/D0ZUIqi.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
-li[class*="self_mute"]>img[src^="https://cdn.discordapp.com/avatars/86586182175035392"] { content:url(https://i.imgur.com/f8XFL4k.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
-li[class*="self_deaf"]>img[src^="https://cdn.discordapp.com/avatars/86586182175035392"] { content:url(https://i.imgur.com/mGnEFrN.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
+li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/86586182175035392"] { content:url(https://i.imgur.com/ev5Ji7x.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
+li>img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/86586182175035392"] { content:url(https://i.imgur.com/aUaNzry.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
+li[class*="self_mute"]>img[src^="https://cdn.discordapp.com/avatars/86586182175035392"] { content:url(https://i.imgur.com/5sVxoZI.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
+li[class*="self_deaf"]>img[src^="https://cdn.discordapp.com/avatars/86586182175035392"] { content:url(https://i.imgur.com/3K9UWy9.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
 
 /* Coconut Corgi */
 li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/334936960080674819"] { content:url(https://i.imgur.com/q4ltjnF.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
