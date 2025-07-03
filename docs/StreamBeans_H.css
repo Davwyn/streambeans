@@ -1,13 +1,13 @@
-/* StreamBeans Horizontal Version: July 2, 2025 Build 2 */
+/* StreamBeans Horizontal Version: July 2, 2025 Build 3 */
 /* -------------------------------------------------
 Look at the bottom of the script for customizations!
 ------------------------------------------------- */
 :root {
-    --StreamBeanHeight:330px;
-    --StreamBeanWidth:330px;
+    --StreamBeanHeight:300px;
+    --StreamBeanWidth:300px;
     --StreamBeanBottom:0px;
-    --DiscordieHeight:180px;
-    --DiscordieWidth:180px;
+    --DiscordieHeight:170px;
+    --DiscordieWidth:170px;
     --DiscordieBottom:60px;
 }
 
@@ -174,10 +174,10 @@ li.Voice_voiceState__OCoZh[data-userid="86586182175035392"], [data-userid="33493
 
 
 /* Davwyn */
-li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/86586182175035392"] { content:url(https://i.imgur.com/ev5Ji7x.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
-li>img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/86586182175035392"] { content:url(https://i.imgur.com/aUaNzry.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
-li[class*="self_mute"]>img[src^="https://cdn.discordapp.com/avatars/86586182175035392"] { content:url(https://i.imgur.com/5sVxoZI.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
-li[class*="self_deaf"]>img[src^="https://cdn.discordapp.com/avatars/86586182175035392"] { content:url(https://i.imgur.com/3K9UWy9.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
+li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/86586182175035392"] { content:url(https://i.imgur.com/sAqVjJe.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
+li>img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/86586182175035392"] { content:url(https://i.imgur.com/y35X4W1.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
+li[class*="self_mute"]>img[src^="https://cdn.discordapp.com/avatars/86586182175035392"] { content:url(https://i.imgur.com/PoXQGQK.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
+li[class*="self_deaf"]>img[src^="https://cdn.discordapp.com/avatars/86586182175035392"] { content:url(https://i.imgur.com/HuYypU3.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
 
 /* Coconut Corgi */
 li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/334936960080674819"] { content:url(https://i.imgur.com/q4ltjnF.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
