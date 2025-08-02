@@ -1,4 +1,4 @@
-/* StreamBeans Vertical Version: July 31, 2025 */
+/* StreamBeans Vertical Version: Aug 1, 2025 v1.2 */
 /* -------------------------------------------------
 Look at the bottom of the script for customizations!
 ------------------------------------------------- */
@@ -628,7 +628,7 @@ This code will be replaced every update.
 
 /* Dennis */
     /* Dennis idle state for Tiomara’s bean */
-    li:has(> img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/407584027466399744"])::after {
+    li:has(> img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/407584027466399744"])::before {
         content: url("https://i.imgur.com/Q15AgIF.png");
         position: absolute;
         top: 50%;

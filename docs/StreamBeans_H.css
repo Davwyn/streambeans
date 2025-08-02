@@ -1,4 +1,4 @@
-/* StreamBeans Horizontal Version: Aug 1, 2025 v1.1 */
+/* StreamBeans Horizontal Version: Aug 1, 2025 v1.2 */
 /* -------------------------------------------------
 Look at the bottom of the script for customizations!
 ------------------------------------------------- */
@@ -660,7 +660,7 @@ li>img[class*="Voice_avatar"]:not([class*="Voice_avatarSpeaking"])[src^="https:/
 
 /* Dennis */
     /* Dennis idle state for Tiomara’s bean */
-    li:has(> img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/407584027466399744"])::after {
+    li:has(> img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/407584027466399744"])::before {
         content: url("https://i.imgur.com/Q15AgIF.png");
         position: absolute;
         top: 50%;
