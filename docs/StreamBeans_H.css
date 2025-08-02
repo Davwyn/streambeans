@@ -1,4 +1,4 @@
-/* StreamBeans Horizontal Version: Aug 1, 2025 v1 */
+/* StreamBeans Horizontal Version: Aug 1, 2025 v1.1 */
 /* -------------------------------------------------
 Look at the bottom of the script for customizations!
 ------------------------------------------------- */
@@ -40,7 +40,6 @@ body {
     bottom:0;
     height:100%;
     width:100%;
-    background-color: black;
 }
 div>ul[class^="Voice_voiceStates"]{
     display:flex!important;
