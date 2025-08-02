@@ -626,7 +626,118 @@ These are special overrides that affect community members managed by the master 
 This code will be replaced every update.
 */
 
+/* Dennis */
+    /* Dennis idle state for Tiomara’s bean */
+    li:has(> img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/407584027466399744"])::after {
+        content: url("https://i.imgur.com/Q15AgIF.png");
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(var(--DennisLeftTranslate), -50%);
+        height: var(--StreamBeanHeight);
+        width:  var(--StreamBeanWidth);
+        pointer-events: none;
+        z-index: -999;
+        animation-name: Dennis-close;
+        animation-duration: 20s;
+        animation-direction:normal;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        --DennisLeftTranslate:-30%;
+    }
+    
+    /* Dennis idle animation */
+    @keyframes Dennis-close {
+        0%  { transform: translate(var(--DennisLeftTranslate), -50%) translateY(0); }
+        60%  { transform: translate(var(--DennisLeftTranslate), -50%) translateY(0); }
+        80% { transform: translate(var(--DennisLeftTranslate), -50%) translateY(-90px); }
+        90% { transform: translate(var(--DennisLeftTranslate), -50%) translateY(-90px); }
+        100% { transform: translate(var(--DennisLeftTranslate), -50%) translateY(-40px); }
+    }
+    
+    /* Dennis talking animation for Tiomara’s bean */
+    @keyframes Dennis-speak {
+        0%  { transform: translate(var(--DennisLeftTranslate), -50%) translateY(0); }
+        30% { transform: translate(var(--DennisLeftTranslate), -50%) translateY(-130px); }
+        100% { transform: translate(var(--DennisLeftTranslate), -50%) translateY(0); }
+    }
+    
+    /* Dennis talking state for Tiomara’s bean */
+    li:has(> img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/407584027466399744"])::before {
+        animation-name: Dennis-speak;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+    }
 
+/* Solaria */
+    /* 1) Solaria container properties */
+    li:has(> img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/86586182175035392"]) {
+        position: relative;
+        /* horizontal centering offset (30% of overlay’s own width leftward) */
+        --SolariaLeftTranslate: -30%;
+        --yOff: -60px; /* start floating high */
+    }
+    
+    /* 2) Solaria element ::before */
+    li:has(> img[class^="Voice_avatar"][src*="86586182175035392"])::before {
+        content: url("https://i.imgur.com/0De1YGd.png");
+        position: absolute;
+        left: 50%;
+        top: calc(50% + var(--yOff));    /* <-- apply yOff here */
+        transform-origin: center center;
+        width:  var(--StreamBeanWidth);
+        height: var(--StreamBeanHeight);
+        pointer-events: none;
+        z-index: -999;
+    
+        animation:
+        driftX 7s infinite alternate linear,
+        driftY 5s infinite alternate linear,
+        rotate 6s infinite alternate linear;
+    
+        transform:
+            translateX(calc(var(--SolariaLeftTranslate) + var(--dx)))
+            translateY(calc(-50% + var(--dy)))
+            rotate(var(--rot));
+        transition: --yOff 4s ease;
+    }
+    
+    /* 3) Solaria animation keyframes */
+    @keyframes driftX {
+        from { --dx: -30px; }
+        to   { --dx:  20px; }
+    }
+    @keyframes driftY {
+        from { --dy: -0px; }
+        to   { --dy:  20px; }
+    }
+    @keyframes rotate {
+        from { --rot: -5deg; }
+        to   { --rot:  5deg; }
+    }
+    /* Solaria drift loop while talking */
+    li:has(> img[class*="Speaking"][src*="86586182175035392"])::before {
+        content: url("https://i.imgur.com/nx0BvGJ.png");
+        --yOff: -90px;
+    }
+    /* Landing state when that class is not present */
+    li:not(:has(> img[class*="Speaking"][src*="86586182175035392"]))::before {
+        --yOff: -10px;
+        transition: --yOff 4s ease 2s;  /* wait 2s, then land over 4s */
+    }
+    /* Hide Solaria for Self_Mute */
+    li[class*="self_mute"]:not([class*="self_deaf"]):has(> img[src^="https://cdn.discordapp.com/avatars/86586182175035392"])::before {
+    content: none !important;
+    animation: none !important;
+    display: none !important;
+    }
+    /* Solaria settle for Self_Deaf */
+    li[class*="self_deaf"]:has(> img[src^="https://cdn.discordapp.com/avatars/86586182175035392"])::before {
+        animation: none;
+        --SolariaLeftTranslate: -40%;
+        --yOff: 0px;
+    }
 
 /* ----------------
 End of Community Overrides
