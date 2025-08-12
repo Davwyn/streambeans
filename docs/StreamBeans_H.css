@@ -1,4 +1,4 @@
-/* StreamBeans Horizontal Version: Aug 1, 2025 v2 */
+/* StreamBeans Horizontal Version: Aug 11, 2025 */
 /* -------------------------------------------------
 Look at the bottom of the script for customizations!
 ------------------------------------------------- */
@@ -242,8 +242,8 @@ li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/659626015
 li>img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/65962601552551936"] { content:url(https://i.imgur.com/kbbehoT.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
 
 /* Lirg 300px*/
-li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/466273208283299841"] { content:url(https://i.imgur.com/RfPEn5J.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
-li>img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/466273208283299841"] { content:url(https://i.imgur.com/NsjX22w.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
+li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/466273208283299841"] { content:url(https://i.imgur.com/2mRzEpl.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
+li>img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/466273208283299841"] { content:url(https://i.imgur.com/jTpQ4St.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
 
 /* Onyx aka Moneymoo */
 li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/485548921184321566"] { content:url(https://i.imgur.com/vQ4yhfM.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
@@ -770,6 +770,20 @@ li>img[class*="Voice_avatar"]:not([class*="Voice_avatarSpeaking"])[src^="https:/
         --SolariaLeftTranslate: -40%;
         --Solaria-yOff: 0px;
     }
+
+/* Lirg Lurk Fade */
+@keyframes LirgLurkFade {
+        0% { opacity: 100%; }
+        5% { opacity: 100%; }
+        100% { opacity: 15%; }
+    }
+li>img:not([class*="Speaking"])[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/466273208283299841"] {
+    animation-name: LirgLurkFade;
+    animation-duration: 300s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
 
 /* ----------------
 End of Community Overrides
