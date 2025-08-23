@@ -1,4 +1,4 @@
-/* StreamBeans Vertical Version: Aug 11, 2025 v2 */
+/* StreamBeans Vertical Version: Aug 23, 2025 */
 /* -------------------------------------------------
 Look at the bottom of the script for customizations!
 ------------------------------------------------- */
@@ -214,8 +214,8 @@ li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/232681889
 li>img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/232681889385807872"] { content:url(https://i.imgur.com/sRA1H3x.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
 
 /* Aeros */
-li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/84796772307726336"] { content:url(https://i.imgur.com/3JXTstD.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
-li>img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/84796772307726336"] { content:url(https://i.imgur.com/7SF43BD.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
+li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/84796772307726336"] { content:url(https://i.imgur.com/Y0tdk3d.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
+li>img[class*="Speaking"][src^="https://cdn.discordapp.com/avatars/84796772307726336"] { content:url(https://i.imgur.com/LgkqlBQ.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
 
 /* Allicia */
 li>img[class^="Voice_avatar"][src^="https://cdn.discordapp.com/avatars/119940055979655168"] { content:url(https://i.imgur.com/SK1eM7r.png); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
