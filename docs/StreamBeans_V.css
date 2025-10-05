@@ -1,4 +1,4 @@
-/* StreamBeans Vertical Version: Oct 5, 2025 */
+/* StreamBeans Vertical Version: Oct 5, 2025 V2 */
 /* -------------------------------------------------
 Look at the bottom of the script for customizations!
 ------------------------------------------------- */
@@ -47,7 +47,7 @@ div>ul[class^="Voice_voiceStates"]{
     flex-wrap:nowrap;
     justify-content:space-evenly;
     position:absolute;
-    bottom:-18px;
+    top: 60px;
     height:calc(100% - 25px);
     width:var(--StreamBeanWidth);
 }
@@ -804,6 +804,8 @@ Copy the below code and replace both of the 0000000000 values in the src^= secti
 Replace the first url() with a link to the passive image, and replace the second url() with the talking image. */
 li>img[class^="Voice_avatar"][src*="avatars/0000000000"] { content:url("https://example.com/passive_image.png"); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
 li>img[class*="Speaking"][src*="avatars/0000000000"] { content:url("https://example.com/talking_image.png"); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
+li[class*="self_mute"]>img[src*="avatars/0000000000"] { content:url(); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
+li[class*="self_deaf"]>img[src*="avatars/0000000000"] { content:url(); border:none!important; bottom:var(--StreamBeanBottom)!important; border-radius:0!important; height:var(--StreamBeanHeight)!important; width:var(--StreamBeanWidth)!important;}
 
 /* --End of Customization Section--
 ----------------------------------------------------------------------------
